@@ -1,0 +1,24 @@
+// *****
+//  ***
+//   *
+#include <iostream>
+int main(){
+    int row,column,i=0;
+    std::cout<<"Enter the number of row for the pattern : ";
+    std::cin>>row;
+
+    while(i<row){
+        int j=0,k=0;
+        while(j < i){
+            std::cout<<" ";
+            j++;
+        }
+        while (k < (row-i)*2-1){
+            std::cout<<"*";
+            k++;
+        }
+        std::cout<<"\n";
+        i++;
+    }
+            return 0;
+}
