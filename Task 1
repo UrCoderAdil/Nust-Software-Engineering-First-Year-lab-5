@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+//Task 1
+int main()
+{   //CapitalLetters
+    char CapitalCharacter='A';
+    while(CapitalCharacter <= 'Z'){
+        std::cout<<CapitalCharacter<<"  ";
+        CapitalCharacter++;
+    }
+    std::cout<<std::endl;
+    //SmallLetters
+    char SmallCharacter='a';
+    while(SmallCharacter <= 'z'){
+        std::cout<<SmallCharacter<<"  ";
+        SmallCharacter++;
+    }
+    std::cout<<std::endl;
+    //integers
+    int number=0;
+    while(number<=9){
+        std::cout<<number<<"  ";
+        number++;
+    }
+    std::cout<<std::endl;
+    
+    return 0;
+}
