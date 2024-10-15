@@ -1,0 +1,12 @@
+//Task 2
+#include <iostream>
+int main(){
+    int num,n1=1;
+    std::cout<<"Enter a number whose multiplication table you want : ";
+    std::cin>>num;
+    while(n1<=10){
+        std::cout<<num<<" * "<<n1<<" = "<<num*n1;
+        std::cout<<"\n";
+        n1++;
+    }
+}
