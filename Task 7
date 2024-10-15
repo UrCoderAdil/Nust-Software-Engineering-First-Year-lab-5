@@ -1,0 +1,13 @@
+#include <iostream>
+int main (){
+    int total=0;
+    int add;
+
+    while(total<=100){
+    std::cout<<"\nEnter the sum number :";
+    std::cin>>add;
+    total+=add;
+    std::cout<<"\nThe Sum is :"<<total;
+}
+
+    std::cout<<"\nThe Final Sum is :"<<total;
