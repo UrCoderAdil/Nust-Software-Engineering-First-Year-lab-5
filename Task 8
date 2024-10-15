@@ -1,0 +1,12 @@
+:#include <iostream>
+int main(){
+    int i=0;
+    std::string num;
+    std::cout<<"Please Enter a number :";
+    std::cin>>num;
+
+    while(i<num.length()){
+        std::cout<<num[i]<<"\n";
+        i++;
+    }
+}
